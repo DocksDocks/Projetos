@@ -1,0 +1,556 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    .wrapper {
+        width: 100%;
+        text-align: center;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .nav-area {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        display: inline-block;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 12px;
+    }
+
+    .nav-area li {
+        display: inline-block;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .nav-area li a span {
+        font-weight: bolder;
+    }
+
+    .nav-area li a {
+        color: #fff;
+        font-family: poppins;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    .nav-area li a:hover {
+        background: #fff;
+        color: #333;
+    }
+
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://www.10wallpaper.com/wallpaper/1920x1200/1402/HERMES-Brand_perfume_wallpaper_1920x1200.jpg);
+        height: 100vh;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+    }
+
+    .logo {
+        left: 15px;
+        top: 6px;
+        position: absolute;
+        float: none;
+        width: 50%;
+        margin: auto;
+    }
+
+    .logo img {
+        width: 55%;
+        padding: 5px 0;
+    }
+
+    .bemvindo-text {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 50%;
+        top: 40%;
+    }
+
+    .bemvindo-text h1 {
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+
+    .bemvindo-text h1 span {
+        color: #00fecb;
+    }
+
+    .bemvindo-text a {
+        border: 1px solid #fff;
+        padding: 1% 2%;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: 5px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 0.8rem;
+    }
+
+    .bemvindo-text a:hover {
+        background: #fff;
+        color: #333;
+    }
+
+    .topright {
+        position: absolute;
+        top: 2px;
+        right: 8px;
+    }
+
+    .topright a {
+        border: 1px solid #fff;
+        padding: 8px 8px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: 8px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    .topright a:hover {
+        background: #fff;
+        color: #333;
+    }
+
+    .topright.a2 {
+        display: inline-block;
+        white-space: nowrap;
+        top: 8px;
+        right: 15px;
+        border: 1px solid #fff;
+        padding: 8px 8px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin-top: px;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 3px;
+    }
+
+    .contatotermos {
+        color: #fff;
+        width: auto;
+        position: absolute;
+        text-align: center;
+        top: 23%;
+        left: 20%;
+        right: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 6px;
+        padding: 1%;
+        font-weight: bolder;
+    }
+
+
+    .areamensagem {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0.4em;
+        padding-right: 0.4em;
+    }
+    .mensagemerro {
+        color: white;
+        text-align: center;
+        background-color: red;
+    }
+
+    .sobreterm {
+        color: #fff;
+        width: 70%;
+        position: absolute;
+        text-align: center;
+        text-justify: auto;
+        top: 23%;
+        left: 10%;
+        right: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 6px;
+        padding: 1%;
+        font-weight: bolder;
+        font-size: 1.4em;
+    }
+
+    .botoes {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .revendedor-box {
+        position: absolute;
+        text-align: center;
+        width: auto;
+        height: auto;
+        background-color: white;
+        border-radius: 8px;
+        top: 25%;
+        left: 20%;
+        right: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .classeh1 {
+        text-align: center;
+    }
+
+    .revendorp {
+        text-align: center;
+        padding-top: 5%;
+        font-size: 1rem;
+    }
+
+    .classeform {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .classeformlabel {
+        display: flex;
+        margin-top: 5%;
+        font-size: 0.95rem;
+    }
+
+    .classeforminput {
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 6px;
+        outline: none;
+    }
+
+    .classeformbutton {
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"] {
+        width: auto;
+        height: auto;
+        background-color: darkgreen;
+        color: white;
+        border: none;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    input:disabled {
+        background-color: #72c387;
+    }
+
+    label span {
+        color: red;
+    }
+
+    .btn-disabled:hover {
+        background: #eee !important;
+    }
+
+    select[readonly] {
+        background: #eee;
+        pointer-events: none;
+        touch-action: none;
+    }
+    .perfilbox {
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        top: 23%;
+        left: 25%;
+        right: 25%;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 3px;
+        padding-bottom: 3%;
+    }
+
+    .signup-box {
+        position: absolute;
+        width: auto;
+        height: auto;
+        top: 15%;
+        left: 25%;
+        right: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 3px;
+    }
+
+    h6 {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .para-2 {
+        text-align: center;
+        color: black;
+        font-size: 0.8em;
+    }
+
+    .para-2 a {
+        color: #34aa8c;
+    }
+
+    p2 {
+        font-size: 1em;
+        margin: 15px 0;
+        display: inline-block;
+        color: #ffff;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .login-box {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 25%;
+        right: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 25%;
+        border-radius: 6px;
+        background-color: white;
+    }
+
+    .classecursor:hover {
+        cursor: pointer;
+    }
+
+    .wrapperlogin {
+        width: 100%;
+    }
+
+    .logologin {
+            left: 15px;
+            top: 6px;
+            position: absolute;
+            float: none;
+            width: 50%;
+            margin: auto;
+            width: 55%;
+            padding: 5px 0;
+        }
+
+    .nav-arealogin {
+        position: absolute;
+        top: 2%;
+        right: 4%;
+        list-style: none;
+    }
+
+    .nav-arealogin li {
+        display: inline-block;
+    }
+
+    .nav-arealogin li a span {
+        font-weight: bolder;
+    }
+
+    .nav-arealogin li a {
+        color: #fff;
+        text-decoration: none;
+        font-family: poppins;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    .nav-arealogin li a:hover {
+        background: #fff;
+        color: #333;
+    }
+    .pregistro {    
+        text-align: center;
+        padding-top: 20px;
+        font-size: 0.8rem;
+      }
+    .privacidade {
+        color: #fff;
+        width: auto;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        left: 8%;
+        right: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 6px;
+        padding: 1%;
+        font-weight: bolder;
+        font-size: 1.5em;
+    }
+    .botaologin{
+        padding: 1%;
+        padding-bottom: 0%;
+        padding-top: 0%;    
+        font-weight: bolder;
+        margin-bottom: 0%;
+        color: #0ed4ad;
+        border-radius: 6px;
+        border: 1px solid white;
+    }
+    .botaologin:hover{ 
+        font-weight: bolder;
+        margin-bottom: 0%;
+        color: #0ed4ad;
+        border: 1px solid white;
+        border-radius: 6px;
+        cursor: pointer;    
+    }
+    .posicionarrev{
+        top: 33%;
+    }
+    .alturalinha{
+        font-size: 3.5rem !important;
+        line-height: 4.4rem;
+    }
+    .produtosbox{
+        position: absolute;
+        width: auto;
+        text-align: center;
+        top: 18%;
+        left: 12%;
+        right: 12%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+        background-color: rgba(0, 0, 0, 0.5);   
+        border-radius: 6px;
+        }
+@media only screen and (min-height:799px){
+.card-img-top{
+    height: auto;
+    width: auto;
+}
+}
+@media only screen and (max-height:798px){
+.card-img-top{
+    height: 140px;
+    width: auto;
+}
+}
+.cardmargin{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.cartacorpo{
+    background-color: rgba( 0, 0, 0, 0.8);  
+    color: white;
+    font-weight: bolder;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+.cartacorpoPRODUTO{
+    background-color: rgba(0, 0, 0, 0.3);  
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.tituloproduto{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.descricaoproduto{
+    text-align: justify;
+    color: white;
+    font-size: 0.9rem;
+}
+.produtounicobox{
+    width: auto;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        left: 12%;
+        right: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+        background-color: rgba(0, 0, 0, 0.5);   
+        border-radius: 6px;
+}
+.idrevbox {
+    width: auto;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 15%;
+    right: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    color: black;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.codigobox{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-top: 3px;
+    background-color: rgb(173, 172, 172);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2rem;
+}
+.extrainforev{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.mt-10{
+    margin-top: 10px;
+}
+}
