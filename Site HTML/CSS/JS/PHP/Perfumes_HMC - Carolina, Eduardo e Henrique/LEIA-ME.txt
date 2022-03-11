@@ -1,1 +1,0 @@
-Caso queira inserir diretamente a pasta "userform" ao invés de importar o userform.sql basta seguir o caminho: "xampp\mysql\data".
